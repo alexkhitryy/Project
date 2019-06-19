@@ -1,0 +1,22 @@
+<svg width="580" height="400" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <defs>
+  <filter id="svg_2_blur">
+   <feGaussianBlur stdDeviation="0" in="SourceGraphic"/>
+  </filter>
+ </defs>
+ <g>
+  <title>background</title>
+  <rect fill="#333742" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path transform="rotate(40 503.0615234375,122.37239074707028) " id="svg_1" d="m503.461778,29.872386c-1.633405,0 -3.086629,0.793615 -4.312775,2.233165c-1.225109,1.438366 -2.238452,3.499429 -3.08169,6.073468c-1.686241,5.147366 -2.723513,12.378246 -3.290895,21.037897c-0.566267,8.642989 -0.661696,18.706951 -0.426437,29.480222c-20.176562,9.796905 -61.098388,30.024885 -64.38568,34.541367c-4.376651,6.013181 -2.962563,12.904625 -1.198887,17.479446l67.274254,-16.206339c1.422027,21.119631 3.443943,42.037512 5.20588,58.428276c-6.579014,2.278959 -18.859899,6.778853 -21.394826,9.569302c-3.492076,3.844072 -3.49205,16.258413 -3.49205,16.258413l27.534095,-2.65056c0.648488,5.351198 1.05404,8.47359 1.05404,8.47359l0.040236,0.28176l0.217254,0l0.506899,0l0.217249,0l0.040236,-0.28176c0,0 0.404782,-3.122447 1.054035,-8.47359l27.542145,2.65056c0,0 0.000031,-12.41434 -3.492055,-16.258413c-2.535874,-2.791527 -14.825725,-7.301624 -21.402875,-9.579802c1.758298,-16.340463 3.776647,-37.178303 5.197841,-58.229892l66.485753,16.01845c1.763656,-4.574822 3.185829,-11.466265 -1.190832,-17.479446c-3.246626,-4.460583 -43.179624,-24.238663 -63.605202,-34.165724c0.244047,-10.912905 0.154341,-21.114015 -0.418404,-29.855864l0,-0.02087c-0.56767,-8.650099 -1.606047,-15.873937 -3.290879,-21.017027c-0.842998,-2.573327 -1.848093,-4.6346 -3.073641,-6.073468c-1.226156,-1.43955 -2.679364,-2.233165 -4.312759,-2.233165l-0.000031,0.000006z" stroke-width="1.5" stroke="#000" fill="#fff"/>
+  <text filter="url(#svg_2_blur)" stroke="#000" transform="matrix(7.159618006943666,0,0,7.536425492613147,-315.6234470715012,-1001.7736316176661) " font-style="normal" font-weight="normal" xml:space="preserve" text-anchor="start" font-family="'Times New Roman', Times, serif" font-size="24" id="svg_2" y="154.289453" x="44.099461" stroke-width="0" fill="#ffffff">TIME</text>
+  <text stroke="#000" transform="matrix(6.267568271140609,0,0,7.670262362004223,-883.0686009274358,-2301.966916085171) " xml:space="preserve" text-anchor="start" font-family="'Times New Roman', Times, serif" font-size="24" id="svg_3" y="347.141076" x="140.910008" stroke-opacity="null" stroke-width="0" fill="#ffffff">TRAVEL</text>
+  <text font-style="italic" stroke="#000" transform="rotate(-20 205.29924011230472,194.24267578124997) matrix(5.497454138389664,0,0,5.364728122742175,-1016.2809149339656,-813.4829185868867) " xml:space="preserve" text-anchor="start" font-family="'Times New Roman', Times, serif" font-size="24" id="svg_4" y="195.96208" x="212.885009" stroke-opacity="null" stroke-width="0" fill="#ffffff">to</text>
+ </g>
+</svg>
