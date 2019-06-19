@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Monoton&display=swap');
+/*font-family: 'Monoton', cursive;*/
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,300i,400,400i,500,500i,600,600i,700,700i&display=swap');
+/*font-family: 'Cormorant Garamond', serif;*/
+@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono&display=swap');
+/*font-family: 'Share Tech Mono', monospace;*/
+
+* {
+    margin: 0;
+    paddin: 0;
+    transition: 0.5s;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+.clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.TitleScreen {
+    background: url("../img/bg_Title.jpg") right center no-repeat;
+    background-size: cover;
+    height: 1000px;
+}
+
+.TitleScreen>.container {
+    height: 100%;
+    text-align: center;
+}
+
+svg {
+    margin: 50px 0 0 50px;
+}
+a:hover>svg>g>#svg_1 {
+    opacity: 1;
+    transform: rotate(35deg) translateX(-15px) translateY(-320px);
+}
+
+a:active>svg>g>#svg_1 {
+    transform: rotate(35deg) translateX(-20px) translateY(-700px);
+}
+
+a>div:last-of-type {
+    position: relative;
+    margin-left: 510px;
+    width: 300px;
+    height: 30px;
+}
+
+a>div:last-of-type>p {
+    position: absolute;
+    font-size: 24px;
+    color: #333742;
+    left: 0;
+    top: -30px;
+    width: 300px;
+    height: 30px;
+    opacity: 0;
+}
+
+a:hover>div>p {
+    opacity: 1;
+    top: 0;
+}
