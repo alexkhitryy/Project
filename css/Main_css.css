@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Monoton&display=swap');
+/*font-family: 'Monoton', cursive;*/
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,300i,400,400i,500,500i,600,600i,700,700i&display=swap');
+/*font-family: 'Cormorant Garamond', serif;*/
+@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono&display=swap');
+/*font-family: 'Share Tech Mono', monospace;*/
+
+* {
+    margin: 0;
+    paddin: 0;
+    transition: 0.5s;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+.clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.Navigation {
+    height: 100px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-flow: row wrap;
+    background: transparent;
+}
+.Logo {
+    float: left;
+    width: 50%;
+    height: 100px;
+}
+
+.Logo a:hover>svg>g>#svg_1 {
+    opacity: 1;
+    transform: rotate(35deg) translateX(-15px) translateY(-320px);
+}
+
+.Logo a:active>svg>g>#svg_1 {
+    transform: rotate(35deg) translateX(-20px) translateY(-700px);
+}
+
+.Menu {
+    float: right;
+    display: flex;
+    width: 50%;
+    height: 100px;
+    justify-content: space-between;
+}
+
+.Menu>a {
+    font-size: 24px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+    align-self: center;
+    color: #333742;
+}
+
+.Menu>a:hover {
+    letter-spacing: 8px;
+    color: #8F6B54;
+}
+
+.MainPage {
+    background: url("../img/bg_Main.jpg") center center no-repeat fixed;
+    background-size: cover;
+    height: 1000px;
+}
+
+.MainPage h1 {
+    text-align: center;
+    margin: 350px auto 0 auto;
+    font-weight: normal;
+    font-size: 50px;
+    color: #333742;
+}
+
+.MainPage h2 {
+    font-weight: normal;
+    text-align: right;
+    font-size: 40px;
+    margin-top: 40px;
+    color: #333742;
+}
+
+
+.Countries {
+    margin-top: 20px;
+}
+.Netherlands {
+    display: inline-block;
+    width: 50%;
+    height: 800px;
+    text-align: center;
+    float: left;
+    background: url("../img/Netherlands/neth_bg.jpg") center center no-repeat;
+    background-size: 90% 50%;
+    position: relative;
+    margin-top: -20px;
+}
+
+.Netherlands>div {
+    position: absolute;
+    width: 100%;
+    top: 45%;
+    background: rgb(255,255,255, 0.7);
+    padding: 20px 0;
+    transform-origin: 50% 50%;
+    transform: scale(1);
+}
+
+.Countries h2 {
+    opacity: 1;
+    margin: auto;
+    font-weight: normal;
+    font-size: 30px;
+    color: #333742;
+    cursor: default;
+}
+
+.Countries a {
+    font-size: 22px;
+    color: #8F6B54;
+    text-decoration: none;
+}
+
+.Countries a:hover {
+    letter-spacing: 5px;
+}
+
+.India {
+    display: inline-block;
+    width: 50%;
+    height: 800px;
+    text-align: center;
+    float: left;
+    background: url("../img/India/in2.jpg") center center no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 200px;
+}
+
+.India>div {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    background: rgb(255,255,255, 0.7);
+    padding: 20px 0;
+}
+
