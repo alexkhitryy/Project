@@ -7,9 +7,11 @@
 
 * {
     margin: 0;
-    paddin: 0;
+    padding: 0;
     transition: 0.5s;
     font-family: 'Cormorant Garamond', serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 .container {
@@ -22,51 +24,79 @@
     clear: both;
 }
 
-.Navigation {
-    height: 100px;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    display: flex;
-    flex-flow: row wrap;
-    background: transparent;
-}
 .Logo {
-    float: left;
-    width: 50%;
+    width: 250px;
     height: 100px;
+    position: fixed;
+    top: 0px;
+    left: 100px;
 }
 
-.Logo a:hover>svg>g>#svg_1 {
+.Logo button:hover>svg>g>#svg_1 {
     opacity: 1;
     transform: rotate(35deg) translateX(-15px) translateY(-320px);
 }
 
-.Logo a:active>svg>g>#svg_1 {
+.Logo button:active>svg>g>#svg_1 {
     transform: rotate(35deg) translateX(-20px) translateY(-700px);
 }
 
-.Menu {
-    float: right;
-    display: flex;
-    width: 50%;
+.Logo>button {
     height: 100px;
-    justify-content: space-between;
+    width: 100px;
+    background: transparent;
+    border: 1px solid transparent;
+    outline: none;
 }
 
-.Menu>a {
-    font-size: 24px;
-    letter-spacing: 3px;
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255, 0.7);
+    overflow-x: hidden;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
     text-decoration: none;
-    text-transform: uppercase;
-    align-self: center;
+    font-size: 25px;
     color: #333742;
+    display: block;
+    transition: 0.3s;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    margin: 20px 0;
 }
 
-.Menu>a:hover {
-    letter-spacing: 8px;
+.sidenav a:hover {
     color: #8F6B54;
+    letter-spacing: 8px;
 }
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+
 
 .MainPage {
     background: url("../img/bg_Main.jpg") center center no-repeat fixed;
@@ -76,10 +106,11 @@
 
 .MainPage h1 {
     text-align: center;
-    margin: 350px auto 0 auto;
+    padding-top: 330px;
     font-weight: normal;
     font-size: 50px;
     color: #333742;
+    pointer-events: none;
 }
 
 .MainPage h2 {
@@ -88,28 +119,33 @@
     font-size: 40px;
     margin-top: 40px;
     color: #333742;
+    pointer-events: none;
 }
 
 
 .Countries {
-    margin-top: 20px;
+    margin: 20px 0;
 }
+
+.Countries>.container {
+    position: relative;
+    height: 1550px;
+}
+
 .Netherlands {
     display: inline-block;
-    width: 50%;
-    height: 800px;
+    width: 48%;
+    height: 700px;
     text-align: center;
-    float: left;
-    background: url("../img/Netherlands/neth_bg.jpg") center center no-repeat;
-    background-size: 90% 50%;
-    position: relative;
-    margin-top: -20px;
+    background: url("../img/Netherlands/neth_bg.jpg") top center no-repeat;
+    background-size: cover;
+    position: absolute;
 }
 
 .Netherlands>div {
     position: absolute;
     width: 100%;
-    top: 45%;
+    top: 40%;
     background: rgb(255,255,255, 0.7);
     padding: 20px 0;
     transform-origin: 50% 50%;
@@ -120,7 +156,7 @@
     opacity: 1;
     margin: auto;
     font-weight: normal;
-    font-size: 30px;
+    font-size: 36px;
     color: #333742;
     cursor: default;
 }
@@ -138,13 +174,13 @@
 .India {
     display: inline-block;
     width: 50%;
-    height: 800px;
+    height: 850px;
     text-align: center;
-    float: left;
-    background: url("../img/India/in2.jpg") center center no-repeat;
+    background: url("../img/India/in1.jpg") center center no-repeat;
     background-size: cover;
-    position: relative;
-    margin-top: 200px;
+    position: absolute;
+    top: 50px;
+    right: 0;
 }
 
 .India>div {
@@ -153,5 +189,47 @@
     top: 50%;
     background: rgb(255,255,255, 0.7);
     padding: 20px 0;
+}
+
+.Japan {
+    display: inline-block;
+    width: 40%;
+    height: 800px;
+    text-align: center;
+    background: url("../img/Japan/jp3.jpg") center center no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 5%;
+    bottom: 0px;
+}
+
+.Japan>div {
+    position: absolute;
+    width: 100%;
+    top: 45%;
+    background: rgb(255, 255, 255, 0.7);
+    padding: 20px 0;
+}
+
+.China {
+    display: inline-block;
+    width: 52%;
+    height: 600px;
+    text-align: center;
+    background: url("../img/China/ch1.jpg") center center no-repeat;
+    background-size: cover;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.China>div {
+    position: absolute;
+    width: 100%;
+    top: 45%;
+    background: rgb(255,255,255, 0.7);
+    padding: 20px 0;
+    transform-origin: 50% 50%;
+    transform: scale(1);
 }
 
