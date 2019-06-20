@@ -12,12 +12,14 @@
     font-family: 'Cormorant Garamond', serif;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    outline: none;
 }
 
 .container {
     width: 1280px;
     margin: 0 auto;
 }
+
 .clearfix:after {
     content: '';
     display: block;
@@ -25,28 +27,31 @@
 }
 
 .Logo {
-    width: 250px;
+    width: 145px;
     height: 100px;
     position: fixed;
-    top: 0px;
+    top: 0;
     left: 100px;
 }
 
-.Logo button:hover>svg>g>#svg_1 {
+.Logo button:hover > svg > g > #svg_1 {
     opacity: 1;
     transform: rotate(35deg) translateX(-15px) translateY(-320px);
 }
 
-.Logo button:active>svg>g>#svg_1 {
+.Logo button:active > svg > g > #svg_1 {
     transform: rotate(35deg) translateX(-20px) translateY(-700px);
 }
 
-.Logo>button {
+.Logo > button {
     height: 100px;
-    width: 100px;
+    width: 145px;
     background: transparent;
     border: 1px solid transparent;
-    outline: none;
+}
+
+.Logo > button:hover {
+    cursor: pointer;
 }
 
 .sidenav {
@@ -92,10 +97,14 @@
 }
 
 @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-}
+    .sidenav {
+        padding-top: 15px;
+    }
 
+    .sidenav a {
+        font-size: 18px;
+    }
+}
 
 
 .MainPage {
@@ -127,29 +136,9 @@
     margin: 20px 0;
 }
 
-.Countries>.container {
+.Countries > .container {
     position: relative;
     height: 1550px;
-}
-
-.Netherlands {
-    display: inline-block;
-    width: 48%;
-    height: 700px;
-    text-align: center;
-    background: url("../img/Netherlands/neth_bg.jpg") top center no-repeat;
-    background-size: cover;
-    position: absolute;
-}
-
-.Netherlands>div {
-    position: absolute;
-    width: 100%;
-    top: 40%;
-    background: rgb(255,255,255, 0.7);
-    padding: 20px 0;
-    transform-origin: 50% 50%;
-    transform: scale(1);
 }
 
 .Countries h2 {
@@ -171,6 +160,65 @@
     letter-spacing: 5px;
 }
 
+.Netherlands {
+    display: inline-block;
+    width: 48%;
+    height: 700px;
+    text-align: center;
+    background: url("../img/Netherlands/neth_bg.jpg") top center no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+
+.Netherlands > #OverlayNetherlandsHide {
+    position: absolute;
+    width: 100%;
+    top: 40%;
+    background: rgb(255, 255, 255, 0.7);
+    padding: 20px 0;
+    transform-origin: 50% 50%;
+    transform: scale(1);
+}
+
+.Netherlands > #OverlayNetherlandsShow {
+    opacity: 0;
+    width: 100%;
+    position: absolute;
+    z-index: 10;
+    top: 40%;
+    background: rgb(255, 255, 255, 0.7);
+    padding: 20px 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    transform: translateY(-100px);
+}
+
+.Netherlands > #OverlayNetherlandsShow > button {
+    width: 100px;
+    height: 100%;
+    margin: 0 10px;
+    padding: 20px 0;
+    background: transparent;
+    border: 1px solid transparent;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.Netherlands > #OverlayNetherlandsShow > button:hover {
+    letter-spacing: 5px;
+}
+
+.Netherlands > #OverlayNetherlandsShow > a {
+    transform: translateX(50px) translateY(-40px);
+    font-size: 50px;
+}
+
+.Netherlands > #OverlayNetherlandsShow > a:hover {
+    letter-spacing: normal;
+}
+
+
 .India {
     display: inline-block;
     width: 50%;
@@ -183,13 +231,52 @@
     right: 0;
 }
 
-.India>div {
+.India > #OverlayIndiaHide {
     position: absolute;
     width: 100%;
-    top: 50%;
-    background: rgb(255,255,255, 0.7);
+    top: 45%;
+    background: rgb(255, 255, 255, 0.7);
     padding: 20px 0;
 }
+
+.India > #OverlayIndiaShow {
+    opacity: 0;
+    width: 100%;
+    position: absolute;
+    z-index: 10;
+    top: 45%;
+    background: rgb(255, 255, 255, 0.7);
+    padding: 20px 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    transform: translateY(-100px);
+}
+
+.India > #OverlayIndiaShow > button {
+    width: 100px;
+    height: 100%;
+    margin: 0 10px;
+    padding: 20px 0;
+    background: transparent;
+    border: 1px solid transparent;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.India > #OverlayIndiaShow > button:hover {
+    letter-spacing: 5px;
+}
+
+.India > #OverlayIndiaShow > a {
+    transform: translateX(60px) translateY(-40px);
+    font-size: 50px;
+}
+
+.India > #OverlayIndiaShow > a:hover {
+    letter-spacing: normal;
+}
+
 
 .Japan {
     display: inline-block;
@@ -203,12 +290,50 @@
     bottom: 0px;
 }
 
-.Japan>div {
+.Japan > #OverlayJapanHide {
     position: absolute;
     width: 100%;
     top: 45%;
     background: rgb(255, 255, 255, 0.7);
     padding: 20px 0;
+}
+
+.Japan > #OverlayJapanShow {
+    opacity: 0;
+    width: 100%;
+    position: absolute;
+    z-index: 10;
+    top: 45%;
+    background: rgb(255, 255, 255, 0.7);
+    padding: 20px 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    transform: translateY(-100px);
+}
+
+.Japan > #OverlayJapanShow > button {
+    width: 100px;
+    height: 100%;
+    margin: 0 10px;
+    padding: 20px 0;
+    background: transparent;
+    border: 1px solid transparent;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.Japan > #OverlayJapanShow > button:hover {
+    letter-spacing: 5px;
+}
+
+.Japan > #OverlayJapanShow > a {
+    transform: translateX(0px) translateY(-40px);
+    font-size: 50px;
+}
+
+.Japan > #OverlayJapanShow > a:hover {
+    letter-spacing: normal;
 }
 
 .China {
@@ -223,13 +348,51 @@
     bottom: 0;
 }
 
-.China>div {
+.China > #OverlayChinaHide {
     position: absolute;
+    z-index: 5;
     width: 100%;
-    top: 45%;
-    background: rgb(255,255,255, 0.7);
+    top: 40%;
+    background: rgb(255, 255, 255, 0.7);
     padding: 20px 0;
     transform-origin: 50% 50%;
     transform: scale(1);
 }
 
+.China > #OverlayChinaShow {
+    opacity: 0;
+    width: 100%;
+    position: absolute;
+    z-index: 10;
+    top: 40%;
+    background: rgb(255, 255, 255, 0.7);
+    padding: 20px 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    transform: translateY(-100px);
+}
+
+.China > #OverlayChinaShow > button {
+    width: 100px;
+    height: 100%;
+    margin: 0 10px;
+    padding: 20px 0;
+    background: transparent;
+    border: 1px solid transparent;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.China > #OverlayChinaShow > button:hover {
+    letter-spacing: 5px;
+}
+
+.China > #OverlayChinaShow > a {
+    transform: translateX(70px) translateY(-40px);
+    font-size: 50px;
+}
+
+.China > #OverlayChinaShow > a:hover {
+    letter-spacing: normal;
+}

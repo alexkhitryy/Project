@@ -9,6 +9,7 @@
     <title>Time to Travel</title>
 </head>
 <body id="main">
+
 <div class="Logo">
     <button onclick="openNav()">
         <svg width="580" height="400" xmlns="http://www.w3.org/2000/svg">
@@ -93,31 +94,60 @@
 <section class="Countries">
     <div class="container clearfix">
         <div class="Netherlands">
-            <div>
+            <div id="OverlayNetherlandsHide">
                 <h2>The Netherlands</h2>
-                <a href="#">View More</a>
+                <a href="javascript:hideNetherlands()">View More</a>
+            </div>
+            <div id="OverlayNetherlandsShow">
+                <button onclick="location.href='../pages/Netherlands.html'" type="button">Info</button>
+                <button>Food</button>
+                <button>People</button>
+                <button>Sights</button>
+                <a href="javascript:showNetherlands()">&times;</a>
             </div>
         </div>
         <div class="India">
-            <div>
+            <div id="OverlayIndiaHide">
                 <h2>India</h2>
-                <a href="#">View More</a>
+                <a href="javascript:hideIndia()">View More</a>
+            </div>
+            <div id="OverlayIndiaShow">
+                <button>Info</button>
+                <button>Food</button>
+                <button>People</button>
+                <button>Sights</button>
+                <a href="javascript:showIndia()">&times;</a>
             </div>
         </div>
         <div class="Japan">
-            <div>
+            <div id="OverlayJapanHide">
                 <h2>Japan</h2>
-                <a href="#">View More</a>
+                <a href="javascript:hideJapan()">View More</a>
+            </div>
+            <div id="OverlayJapanShow">
+                <button>Info</button>
+                <button>Food</button>
+                <button>People</button>
+                <button>Sights</button>
+                <a href="javascript:showJapan()">&times;</a>
             </div>
         </div>
         <div class="China">
-            <div>
+            <div id="OverlayChinaHide">
                 <h2>China</h2>
-                <a href="#">View More</a>
+                <a href="javascript:hideChina()">View More</a>
+            </div>
+            <div id="OverlayChinaShow">
+                <button>Info</button>
+                <button>Food</button>
+                <button>People</button>
+                <button>Sights</button>
+                <a href="javascript:showChina()">&times;</a>
             </div>
         </div>
     </div>
 </section>
+
 <script>
     function openNav() {
         document.getElementById("mySidenav").style.width = "250px";
@@ -126,8 +156,65 @@
 
     function closeNav() {
         document.getElementById("mySidenav").style.width = "0";
-        document.getElementById("main").style.marginLeft= "0";
+        document.getElementById("main").style.marginLeft = "0";
+    }
+
+    function hideNetherlands() {
+        document.getElementById("OverlayNetherlandsHide").style.transform = "translateY(200px)";
+        document.getElementById("OverlayNetherlandsHide").style.opacity = "0";
+        document.getElementById("OverlayNetherlandsShow").style.transform = "translateY(0px)";
+        document.getElementById("OverlayNetherlandsShow").style.opacity = "1";
+    }
+
+    function showNetherlands() {
+        document.getElementById("OverlayNetherlandsShow").style.transform = "translateY(-150px)";
+        document.getElementById("OverlayNetherlandsShow").style.opacity = "0";
+        document.getElementById("OverlayNetherlandsHide").style.transform = "translateY(0px)";
+        document.getElementById("OverlayNetherlandsHide").style.opacity = "1";
+    }
+
+    function hideIndia() {
+        document.getElementById("OverlayIndiaHide").style.transform = "translateY(200px)";
+        document.getElementById("OverlayIndiaHide").style.opacity = "0";
+        document.getElementById("OverlayIndiaShow").style.transform = "translateY(0px)";
+        document.getElementById("OverlayIndiaShow").style.opacity = "1";
+    }
+
+    function showIndia() {
+        document.getElementById("OverlayIndiaShow").style.transform = "translateY(-150px)";
+        document.getElementById("OverlayIndiaShow").style.opacity = "0";
+        document.getElementById("OverlayIndiaHide").style.transform = "translateY(0px)";
+        document.getElementById("OverlayIndiaHide").style.opacity = "1";
+    }
+
+    function hideJapan() {
+        document.getElementById("OverlayJapanHide").style.transform = "translateY(200px)";
+        document.getElementById("OverlayJapanHide").style.opacity = "0";
+        document.getElementById("OverlayJapanShow").style.transform = "translateY(0px)";
+        document.getElementById("OverlayJapanShow").style.opacity = "1";
+    }
+
+    function showJapan() {
+        document.getElementById("OverlayJapanShow").style.transform = "translateY(-150px)";
+        document.getElementById("OverlayJapanShow").style.opacity = "0";
+        document.getElementById("OverlayJapanHide").style.transform = "translateY(0px)";
+        document.getElementById("OverlayJapanHide").style.opacity = "1";
+    }
+
+    function hideChina() {
+        document.getElementById("OverlayChinaHide").style.transform = "translateY(200px)";
+        document.getElementById("OverlayChinaHide").style.opacity = "0";
+        document.getElementById("OverlayChinaShow").style.transform = "translateY(0px)";
+        document.getElementById("OverlayChinaShow").style.opacity = "1";
+    }
+
+    function showChina() {
+        document.getElementById("OverlayChinaShow").style.transform = "translateY(-150px)";
+        document.getElementById("OverlayChinaShow").style.opacity = "0";
+        document.getElementById("OverlayChinaHide").style.transform = "translateY(0px)";
+        document.getElementById("OverlayChinaHide").style.opacity = "1";
     }
 </script>
+
 </body>
 </html>
