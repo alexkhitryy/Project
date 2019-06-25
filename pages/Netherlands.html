@@ -9,7 +9,7 @@
     <title>The Netherlands</title>
 </head>
 <body id="main">
-<button onclick="openNav()">
+<button id="Nav" onclick="openNav()">
     <svg width="145" height="100" xmlns="http://www.w3.org/2000/svg">
         <style>
             #svg_1 {
@@ -84,11 +84,18 @@
     <a href="#">Book</a>
 </div>
 
+<div class="SectionTitle">
+    <h2>Information</h2>
+</div>
+
 <section class="About">
     <div class="container clearfix">
         <div class="Information">
             <h2>The Netherlands</h2>
-            <p>The Netherlands, a country in northwestern Europe, is known for a flat landscape of canals, tulip fields, windmills and cycling routes. Amsterdam, the capital, is home to the Rijksmuseum, Van Gogh Museum and the house where Jewish diarist Anne Frank hid during WWII. Canalside mansions and a trove of works from artists including Rembrandt and Vermeer remain from the city's 17th-century "Golden Age."</p>
+            <p>The Netherlands, a country in northwestern Europe, is known for a flat landscape of canals, tulip fields,
+                windmills and cycling routes. Amsterdam, the capital, is home to the Rijksmuseum, Van Gogh Museum and
+                the house where Jewish diarist Anne Frank hid during WWII. Canalside mansions and a trove of works from
+                artists including Rembrandt and Vermeer remain from the city's 17th-century "Golden Age."</p>
         </div>
         <div class="InformationTable">
             <table>
@@ -132,6 +139,81 @@
     </div>
 </section>
 
+<div class="SectionTitle">
+    <h2>Dutch Food</h2>
+</div>
+
+<section class="FoodNetherlands">
+    <div class="container clearfix">
+        <div class="FoodSlideShow">
+            <!-- Slideshow container -->
+            <div class="slideshow-container">
+
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 3</div>
+                    <img src="../img/Netherlands/food1.jpg" style="width:100%">
+                    <div class="text">
+                        <h2>Haring ‘Hollandse Nieuwe’</h2>
+                        <p>Haring or ‘Hollandse Nieuwe’ (Dutch new herring) is probably the most famous Dutch food. If
+                            you like fish you should at least try it once. The raw herring is served together with
+                            chopped raw onions and gherkins. Also the way of eating is a real Dutch tradition. In the
+                            Netherlands new herring is eaten by lifting up the herring by its tail into the air and then
+                            take a bite upwards. Of course you can also enjoy this Dutch delight by eating it in little
+                            pieces or on a sandwich called ‘broodje haring’.
+                            <br>Herring can only be called ‘Hollandse Nieuwe’ if the fish is caught between May and
+                            July. Also the preparation is quite special and must be done according to the Dutch
+                            tradition. The herring is cleaned, the head is removed and it is conserved in a special way
+                            (with salt). You can buy herring all around Amsterdam in shops and at street stands.</p>
+                    </div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 3</div>
+                    <img src="../img/Netherlands/food2.jpg" style="width:100%">
+                    <div class="text">
+                        <h2>Stroopwafel</h2>
+                        <p>Popular throughout the world, the ‘stroopwafel’ is undoubtedly the most famous and popular
+                            pastry from The Netherlands. A ‘stroopwafel’ is a unique kind of cookie. It is a waffle made
+                            from baked batter and sliced horizontally. The two thin layers of the waffle are filled with
+                            special sweet and sticky syrup (the ‘stroop’) in between. The stiff batter for the waffles
+                            is made from butter, flour, yeast, milk, brown sugar and eggs.
+                            <br>The ‘stroopwafel’ originates from Gouda, a place south of Amsterdam. It was first made
+                            during the late 18th or early 19th century by a baker using leftovers from the bakery, such
+                            as breadcrumbs and sweetened it with syrup.</p>
+                    </div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 3</div>
+                    <img src="../img/Netherlands/food3.jpg" style="width:100%">
+                    <div class="text">
+                        <h2>Kroket</h2>
+                        <p>The Netherlands is not known for its fabulous cuisine. But regarding to snacks, nobody can
+                            beat the Dutch! The ‘kroket’ is a deep fried roll with meat ragout inside, covered in
+                            breadcrumbs. The common English translation of’ kroket’ is croquette. The original Dutch
+                            ‘kroket’ is made from beef or veal, but there are many different flavors like chicken satay,
+                            shrimps, goulash or even a vegetarian ‘kroket’. You can eat a ‘kroket’ as a snack, but most
+                            of the time they are served on sliced white bread or hamburger buns with mustard on the
+                            side. Be aware; the ‘kroket’ can be quite hot inside.</p>
+                    </div>
+                </div>
+
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </div>
+    </div>
+</section>
 
 <script>
     function openNav() {
@@ -142,6 +224,39 @@
     function closeNav() {
         document.getElementById("mySidenav").style.width = "0";
         document.getElementById("main").style.marginLeft = "0";
+    }
+
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    // Next/previous controls
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+
+    // Thumbnail image controls
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {
+            slideIndex = 1
+        }
+        if (n < 1) {
+            slideIndex = slides.length
+        }
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
     }
 </script>
 </body>
