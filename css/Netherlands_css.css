@@ -85,6 +85,7 @@
     border: none;
     background: transparent;
     position: sticky;
+    z-index: 50;
     top: 0;
     left: 50px;
     cursor: pointer;
@@ -151,6 +152,9 @@
     margin-bottom: 20px;
 }
 
+.SectionTitle:not(#First) {
+    margin: 50px auto 25px auto;
+}
 .SectionTitle {
     width: 50%;
     margin: auto;
@@ -164,7 +168,7 @@
 }
 
 .slideshow-container {
-    max-width: 1000px;
+    max-width: 100%;
     position: relative;
     margin: auto;
 }
@@ -214,8 +218,8 @@
 
 .text h2 {
     font-weight: normal;
-    font-size: 38px;
-    margin: 0 0 20px 0;
+    font-size: 40px;
+    margin: 10px 0 20px 0;
 }
 
 .text p {
@@ -275,3 +279,78 @@
     from {opacity: .4}
     to {opacity: 1}
 }
+
+.PeopleNetherlands .container {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+}
+.PeopleNetherlands .Person {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    margin: 10px;
+}
+
+.PeopleNetherlands .overlay {
+    position: absolute;
+    right: 0;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+}
+
+.PeopleNetherlands .Person:hover .overlay {
+    width: 100%;
+    left: 0;
+}
+
+.PeopleNetherlands .Person h2 {
+    color: #333742;
+    display: block;
+    width: 100%;
+    text-align: center;
+    background: rgba(255,255,255, 0.5);
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
+
+.PeopleNetherlands .Person:first-of-type {
+    background: url("../img/Netherlands/VanGogh.jpg") center center no-repeat;
+    background-size: cover;
+}
+
+.PeopleNetherlands .Person:nth-of-type(2) {
+    background: url("../img/Netherlands/Rembrandt.jpg") top center no-repeat;
+    background-size: cover;
+}
+
+.PeopleNetherlands .Person:nth-of-type(3) {
+    background: url("../img/Netherlands/Armin.jpg") top center no-repeat;
+    background-size: cover;
+}
+
+.PeopleNetherlands .Person:nth-of-type(4) {
+    background: url("../img/Netherlands/Paul.jpeg") top center no-repeat;
+    background-size: cover;
+}
+
+.PeopleNetherlands .Person:nth-of-type(5) {
+    background: url("../img/Netherlands/Carice Anouk van Houten.jpg") top center no-repeat;
+    background-size: cover;
+}
+
+.PeopleNetherlands .Person:last-of-type {
+    background: url("../img/Netherlands/Michael.jpg") top center no-repeat;
+    background-size: cover;
+}
+
