@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css?family=Monoton&display=swap');
+/*font-family: 'Monoton', cursive;*/
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,300i,400,400i,500,500i,600,600i,700,700i&display=swap');
+/*font-family: 'Cormorant Garamond', serif;*/
+@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono&display=swap');
+/*font-family: 'Share Tech Mono', monospace;*/
+
+* {
+    margin: 0;
+    padding: 0;
+    transition: 0.5s;
+    font-family: 'Cormorant Garamond', serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    outline: none;
+    color: #333742;
+}
+
+.container {
+    width: 1366px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.7);
+    overflow-x: hidden;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #333742;
+    display: block;
+    transition: 0.3s;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.sidenav a:hover {
+    color: #8F6B54;
+    letter-spacing: 8px;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+#Nav {
+    width: 145px;
+    height: 100px;
+    border: none;
+    background: transparent;
+    position: sticky;
+    z-index: 50;
+    top: 0;
+    left: 50px;
+    cursor: pointer;
+}
+
+.Bio .container {
+    padding: 50px 0 25px 0;
+    border-bottom: 1px solid #8F6B54;
+}
+
+.Bio h1 {
+    font-size: 40px;
+    font-weight: normal;
+    color: #8F6B54;
+    text-align: center;
+}
+
+.Bio img {
+    width: 100%;
+    margin: 50px 0;
+}
+
+.Bio .Left {
+    float: left;
+    width: 35%;
+}
+
+.Bio .Right {
+    float: right;
+    width: 65%;
+}
+
+.Bio .Left > h2 {
+    display: inline-block;
+    width: 100%;
+    font-weight: normal;
+    font-size: 35px;
+    color: #333742;
+}
+
+.Bio .Right > p {
+    display: inline-block;
+    width: 100%;
+    font-size: 20px;
+    color: #333742;
+    margin: 10px 0;
+}
+
+.Location .container {
+    padding: 25px 0;
+    border-bottom: 1px solid #8F6B54;
+}
+
+.Location .Left {
+    float: left;
+    width: 35%;
+}
+
+.Location .Right {
+    float: right;
+    width: 65%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: stretch;
+}
+
+.Location .Left > h2 {
+    display: inline-block;
+    width: 100%;
+    font-weight: normal;
+    font-size: 35px;
+    color: #333742;
+}
+
+.Location .Right > p {
+    display: inline-block;
+    width: 100%;
+    font-size: 20px;
+    color: #333742;
+    margin: 10px 0;
+}
+
+.Location .Right > div {
+    width: 50%;
+    margin: 20px 0;
+}
+
+.Location .Right > div > h3 {
+    font-weight: normal;
+    font-size: 24px;
+}
+
+.Location .Right > div > p {
+    font-size: 22px;
+}
+
+.Location .Right > div > a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #8F6B54;
+}
+
+.Awards .container {
+    padding: 25px 0;
+    border-bottom: 1px solid #8F6B54;
+}
+
+.Awards .Left {
+    float: left;
+    width: 35%;
+}
+
+.Awards .Right {
+    float: right;
+    width: 65%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: stretch;
+}
+
+.Awards .Left > h2 {
+    display: inline-block;
+    width: 100%;
+    font-weight: normal;
+    font-size: 35px;
+    color: #333742;
+}
+
+.Awards .Right > p {
+    display: inline-block;
+    width: 100%;
+    font-size: 20px;
+    color: #333742;
+    margin: 10px 0;
+}
+
+.Awards .Right > div {
+    width: 50%;
+    margin: 20px 0;
+}
+
+.Awards .Right > div > h3 {
+    font-weight: normal;
+    font-size: 22px;
+}
+
+.Awards .Right > div > p {
+    font-size: 20px;
+    color: #8F6B54;
+}
+
+.Contact .container {
+    padding: 25px 0;
+}
+
+.Contact .Left {
+    float: left;
+    width: 35%;
+}
+
+.Contact .Right {
+    float: right;
+    width: 65%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: stretch;
+    text-align: center;
+}
+
+.Contact .Left > h2 {
+    display: inline-block;
+    width: 100%;
+    font-weight: normal;
+    font-size: 35px;
+    color: #333742;
+}
+
+.Contact .Left > p {
+    display: inline-block;
+    width: 100%;
+    font-size: 20px;
+}
+
+#Name {
+    height: 15%;
+    width: 45%;
+    float: left;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    border: solid 1px transparent;
+    border-bottom: solid 1px black;
+    font-size: 20px;
+}
+
+#email {
+    height: 15%;
+    width: 45%;
+    float: right;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    border: solid 1px transparent;
+    border-bottom: solid 1px black;
+    font-size: 20px;
+}
+
+#Name:hover, #email:hover {
+    background: rgba(198, 198, 198, 1);
+    border: solid 1px black;
+}
+
+
+.Contact .Right textarea {
+    width: 100%;
+    padding: 15px;
+    border: solid 1px transparent;
+    border-bottom: solid 1px black;
+    font-size: 20px;
+}
+
+.Contact .Right textarea:hover {
+    background: rgba(198, 198, 198, 1);
+    border: solid 1px black;
+}
+
+.Contact .Right #button {
+    font-size: 30px;
+    color: #8F6B54;
+    font-family: 'Cormorant Garamond', serif;
+    cursor: pointer;
+    padding: 5px;
+    background: transparent;
+    border: none;
+}
+
+.Contact .Right #button:hover {
+    transform: scale(1.2);
+    color: #b09787;
+}
+
+footer {
+    margin-top: 100px;
+    width: 100%;
+    height: 100%;
+    background: rgba(143, 107, 84, 0.7);
+}
+
+footer .container {
+    display: flex;
+}
+
+footer .container > div {
+    padding: 30px 0;
+    width: 50%;
+    display: flex;
+}
+
+footer .container > div > p {
+    font-size: 25px;
+}
+
+footer .container > div:last-of-type {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .container > div:last-of-type > a {
+    font-size: 26px;
+    text-decoration: none;
+}

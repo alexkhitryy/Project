@@ -26,34 +26,6 @@
     clear: both;
 }
 
-.Logo {
-    width: 145px;
-    height: 100px;
-    position: fixed;
-    top: 0;
-    left: 100px;
-}
-
-.Logo button:hover > svg > g > #svg_1 {
-    opacity: 1;
-    transform: rotate(35deg) translateX(-15px) translateY(-320px);
-}
-
-.Logo button:active > svg > g > #svg_1 {
-    transform: rotate(35deg) translateX(-20px) translateY(-700px);
-}
-
-.Logo > button {
-    height: 100px;
-    width: 145px;
-    background: transparent;
-    border: 1px solid transparent;
-}
-
-.Logo > button:hover {
-    cursor: pointer;
-}
-
 .sidenav {
     height: 100%;
     width: 0;
@@ -61,7 +33,7 @@
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: rgb(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.7);
     overflow-x: hidden;
     padding-top: 60px;
 }
@@ -104,6 +76,18 @@
     .sidenav a {
         font-size: 18px;
     }
+}
+
+#Nav {
+    width: 145px;
+    height: 100px;
+    border: none;
+    background: transparent;
+    position: sticky;
+    z-index: 50;
+    top: 0;
+    left: 50px;
+    cursor: pointer;
 }
 
 

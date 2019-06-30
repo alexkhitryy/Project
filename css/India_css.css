@@ -92,7 +92,7 @@
 }
 
 .About {
-    background: url("../img/Netherlands/neth8.jpg") top center no-repeat fixed;
+    background: url("../img/India/in6.jpg") center top no-repeat fixed;
     background-size: cover;
     height: 100%;
 }
@@ -123,13 +123,14 @@
     float: left;
     background: rgba(255, 255, 255, 0.7);
     padding: 20px 0;
-    margin-top: 30%;
+    margin-top: 25%;
 }
 
 .InformationTable > table {
     border-collapse: separate;
     border-spacing: 0 1.5em;
     padding: 0 20px;
+    width: 100%;
 }
 
 .InformationTable tr > td:first-child {
@@ -221,27 +222,27 @@
 
 }
 .accordion ul li:nth-child(1) {
-    background: url("../img/Netherlands/sight01.jpg") top center no-repeat;
+    background: url("../img/India/sight01.jpg") top center no-repeat;
     background-size: cover;
 }
 .accordion ul li:nth-child(2) {
-    background: url("../img/Netherlands/sight02.jpg") top center no-repeat;
+    background: url("../img/India/sight02.jpg") top center no-repeat;
     background-size: cover;
 }
 .accordion ul li:nth-child(3) {
-    background: url("../img/Netherlands/sight03.jpg") top center no-repeat;
+    background: url("../img/India/sight03.jpg") top center no-repeat;
     background-size: cover;
 }
 .accordion ul li:nth-child(4) {
-    background: url("../img/Netherlands/sight04.jpg") top center no-repeat;
+    background: url("../img/India/sight04.jpg") top center no-repeat;
     background-size: cover;
 }
 .accordion ul li:nth-child(5) {
-    background: url("../img/Netherlands/sight05.jpg") top center no-repeat;
+    background: url("../img/India/sight05.jpg") top center no-repeat;
     background-size: cover;
 }
 .accordion ul li:nth-child(6) {
-    background: url("../img/Netherlands/sight06.jpg") top center no-repeat;
+    background: url("../img/India/sight06.jpg") top center no-repeat;
     background-size: cover;
 }
 .accordion ul:hover li {
@@ -307,7 +308,6 @@
     height: auto;
 }
 
-/* Next & previous buttons */
 .prev, .next {
     cursor: pointer;
     position: absolute;
@@ -332,7 +332,6 @@
     background-color: rgba(255,255,255, 0.5);
 }
 
-/* Caption text */
 .text {
     color: #333742;
     padding: 8px 12px;
@@ -379,7 +378,6 @@
     top: 0;
 }
 
-/* The dots/bullets/indicators */
 .dot {
     cursor: pointer;
     height: 10px;
@@ -395,7 +393,6 @@
     background-color: #717171;
 }
 
-/* Fading animation */
 .fade {
     -webkit-animation-name: fade;
     -webkit-animation-duration: 1.5s;
@@ -458,32 +455,32 @@
 }
 
 .PeopleNetherlands .Person:first-of-type {
-    background: url("../img/Netherlands/VanGogh.jpg") center center no-repeat;
+    background: url("../img/India/Gandhi.jpg") top center no-repeat;
     background-size: cover;
 }
 
 .PeopleNetherlands .Person:nth-of-type(2) {
-    background: url("../img/Netherlands/Rembrandt.jpg") top center no-repeat;
+    background: url("../img/India/Theresa.jpg") top center no-repeat;
     background-size: cover;
 }
 
 .PeopleNetherlands .Person:nth-of-type(3) {
-    background: url("../img/Netherlands/Armin.jpg") top center no-repeat;
+    background: url("../img/India/Nehru.jpg") top center no-repeat;
     background-size: cover;
 }
 
 .PeopleNetherlands .Person:nth-of-type(4) {
-    background: url("../img/Netherlands/Paul.jpeg") top center no-repeat;
+    background: url("../img/India/Aziz.jpg") top center no-repeat;
     background-size: cover;
 }
 
 .PeopleNetherlands .Person:nth-of-type(5) {
-    background: url("../img/Netherlands/Carice Anouk van Houten.jpg") top center no-repeat;
+    background: url("../img/India/Indira.jpg") top center no-repeat;
     background-size: cover;
 }
 
 .PeopleNetherlands .Person:last-of-type {
-    background: url("../img/Netherlands/Michael.jpg") top center no-repeat;
+    background: url("../img/India/Rai.jpg") top center no-repeat;
     background-size: cover;
 }
 
