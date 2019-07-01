@@ -2,28 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2485452f-499d-4ab8-a137-940fcb2e1528" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/China_css.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/India_css.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/Japan_css.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/Us_css.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/animate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/China.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/India.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/Japan.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/Us.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Project.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/China_css.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/China_css.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/India_css.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/India_css.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/Japan_css.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Japan_css.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/Main_css.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Main_css.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/Netherlands_css.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Netherlands_css.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/index_css.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index_css.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/China/ch5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/China/ch5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Netherlands/gallery01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Netherlands/gallery02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Netherlands/gallery03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/Us_css.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Us_css.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/China/ch2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/China/ch3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/China/ch4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/China.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/China.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/India.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/India.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/Japan.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Japan.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/Main.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Main.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/Netherlands.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Netherlands.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/Us.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Us.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -39,13 +33,31 @@
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/index.html">
+            <entry file="file://$PROJECT_DIR$/pages/Clients.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="216">
-                  <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+                <state relative-caret-position="408">
+                  <caret line="124" column="64" selection-start-line="124" selection-start-column="64" selection-end-line="124" selection-end-column="64" />
                   <folding>
-                    <element signature="n#a#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#svg#0;n#a#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#button#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/pages/Main.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="600">
+                  <caret line="151" column="10" lean-forward="true" selection-start-line="151" selection-start-column="10" selection-end-line="151" selection-end-column="10" />
+                  <folding>
+                    <element signature="n#button#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#2;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#3;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
                   </folding>
                 </state>
               </provider>
@@ -54,11 +66,10 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/pages/Netherlands.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="384">
-                  <caret line="88" column="6" selection-start-line="88" selection-start-column="6" selection-end-line="88" selection-end-column="6" />
+                <state relative-caret-position="122">
+                  <caret line="220" column="35" selection-start-line="220" selection-start-column="23" selection-end-line="220" selection-end-column="35" />
                   <folding>
                     <element signature="n#button#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
@@ -68,18 +79,29 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/pages/Japan.html">
+            <entry file="file://$PROJECT_DIR$/pages/India.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="312">
-                  <caret line="342" column="63" selection-start-line="342" selection-start-column="63" selection-end-line="342" selection-end-column="63" />
+                <state relative-caret-position="528">
+                  <caret line="88" selection-start-line="88" selection-end-line="88" />
                   <folding>
                     <element signature="n#button#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#svg#0;n#button#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/pages/Us.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-120">
+                  <caret line="93" column="26" selection-start-line="93" selection-start-column="26" selection-end-line="93" selection-end-column="26" />
+                  <folding>
+                    <element signature="n#svg#0;n#button#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
                   </folding>
                 </state>
               </provider>
@@ -88,30 +110,21 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/pages/China.html">
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/css/Clients_css.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="195">
-                  <caret line="281" column="6" selection-start-line="281" selection-start-column="6" selection-end-line="281" selection-end-column="6" />
-                  <folding>
-                    <element signature="n#button#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#svg#0;n#button#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                  </folding>
+                <state relative-caret-position="252">
+                  <caret line="205" lean-forward="true" selection-start-line="205" selection-end-line="205" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/css/index_css.css">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/css/Us_css.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-540">
-                  <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+                <state relative-caret-position="564">
+                  <caret line="367" column="5" lean-forward="true" selection-start-line="360" selection-end-line="367" selection-end-column="5" />
                 </state>
               </provider>
             </entry>
@@ -145,20 +158,24 @@
         <option value="$PROJECT_DIR$/css/animate.css" />
         <option value="$USER_HOME$/AppData/Local/Temp/Rar$DRa8176.40800/index.html" />
         <option value="$USER_HOME$/AppData/Local/Temp/Rar$DIa8176.32613/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/index_css.css" />
+        <option value="$PROJECT_DIR$/css/Book_css.css" />
+        <option value="$PROJECT_DIR$/pages/Book.html" />
+        <option value="$PROJECT_DIR$/pages/China.html" />
+        <option value="$PROJECT_DIR$/pages/India.html" />
+        <option value="$PROJECT_DIR$/pages/Japan.html" />
+        <option value="$PROJECT_DIR$/pages/Us.html" />
+        <option value="$PROJECT_DIR$/pages/Clients.html" />
+        <option value="$PROJECT_DIR$/pages/Main.html" />
+        <option value="$PROJECT_DIR$/css/Main_css.css" />
+        <option value="$PROJECT_DIR$/pages/Netherlands.html" />
         <option value="$PROJECT_DIR$/css/Netherlands_css.css" />
         <option value="$PROJECT_DIR$/css/India_css.css" />
         <option value="$PROJECT_DIR$/css/Japan_css.css" />
-        <option value="$PROJECT_DIR$/css/Main_css.css" />
         <option value="$PROJECT_DIR$/css/China_css.css" />
         <option value="$PROJECT_DIR$/css/Us_css.css" />
-        <option value="$PROJECT_DIR$/pages/Us.html" />
-        <option value="$PROJECT_DIR$/pages/Main.html" />
-        <option value="$PROJECT_DIR$/pages/Netherlands.html" />
-        <option value="$PROJECT_DIR$/pages/India.html" />
-        <option value="$PROJECT_DIR$/pages/Japan.html" />
-        <option value="$PROJECT_DIR$/pages/China.html" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/css/index_css.css" />
+        <option value="$PROJECT_DIR$/css/Clients_css.css" />
       </list>
     </option>
   </component>
@@ -250,7 +267,8 @@
       <workItem from="1561481811199" duration="6507000" />
       <workItem from="1561542854468" duration="6904000" />
       <workItem from="1561805094180" duration="28841000" />
-      <workItem from="1561908940920" duration="1145000" />
+      <workItem from="1561908940920" duration="10127000" />
+      <workItem from="1561976185991" duration="6817000" />
     </task>
     <task id="LOCAL-00001" summary="Edition_1">
       <created>1560955698525</created>
@@ -280,15 +298,21 @@
       <option name="project" value="LOCAL" />
       <updated>1561560025962</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Edition_1">
+      <created>1561910106011</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1561910106011</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102321000" />
+    <option name="totallyTimeSpent" value="118120000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10052632" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -351,112 +375,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/India_css.css">
+    <entry file="file://$PROJECT_DIR$/css/index_css.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="464" column="1" selection-end-line="486" />
+        <state relative-caret-position="-480">
+          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/Japan_css.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="467" column="42" selection-end-line="486" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/Netherlands_css.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="91" column="1" lean-forward="true" selection-start-line="28" selection-end-line="91" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/Us_css.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="324" column="26" lean-forward="true" selection-start-line="324" selection-start-column="26" selection-end-line="324" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/Main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="223" lean-forward="true" selection-start-line="223" selection-end-line="223" />
-          <folding>
-            <element signature="n#button#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#script#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/Us.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2196">
-          <caret line="11" column="7" selection-end-line="224" selection-end-column="7" />
-          <folding>
-            <element signature="n#button#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#svg#0;n#button#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/Main_css.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
-          <caret line="9" column="15" lean-forward="true" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/China_css.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1176">
-          <caret line="91" column="1" lean-forward="true" selection-start-line="91" selection-start-column="1" selection-end-line="91" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/India.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="146" column="74" lean-forward="true" selection-start-line="146" selection-start-column="34" selection-end-line="146" selection-end-column="74" />
+          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
           <folding>
-            <element signature="n#button#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#svg#0;n#button#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#svg#0;n#a#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/Netherlands.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="88" column="6" selection-start-line="88" selection-start-column="6" selection-end-line="88" selection-end-column="6" />
-          <folding>
-            <element signature="n#button#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/css/Book_css.css" />
+    <entry file="file://$PROJECT_DIR$/pages/Book.html" />
     <entry file="file://$PROJECT_DIR$/pages/China.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="281" column="6" selection-start-line="281" selection-start-column="6" selection-end-line="281" selection-end-column="6" />
+        <state relative-caret-position="528">
+          <caret line="88" selection-start-line="88" selection-end-line="88" />
           <folding>
             <element signature="n#button#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#svg#0;n#button#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -467,34 +412,136 @@
     <entry file="file://$PROJECT_DIR$/pages/Japan.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
-          <caret line="342" column="63" selection-start-line="342" selection-start-column="63" selection-end-line="342" selection-end-column="63" />
+          <caret line="13" selection-start-line="13" selection-end-line="13" selection-end-column="16" />
           <folding>
             <element signature="n#button#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#svg#0;n#button#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="151" column="10" lean-forward="true" selection-start-line="151" selection-start-column="10" selection-end-line="151" selection-end-column="10" />
+          <folding>
+            <element signature="n#button#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/Main_css.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8253">
+          <caret line="395" column="18" selection-start-line="395" selection-start-column="18" selection-end-line="395" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Netherlands.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="220" column="35" selection-start-line="220" selection-start-column="23" selection-end-line="220" selection-end-column="35" />
+          <folding>
+            <element signature="n#button#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/index_css.css">
+    <entry file="file://$PROJECT_DIR$/css/Netherlands_css.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-540">
-          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+        <state relative-caret-position="645">
+          <caret line="512" selection-start-line="512" selection-end-line="557" selection-end-column="1" />
+          <folding>
+            <element signature="e#9688#10599#0" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/css/India_css.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+        <state relative-caret-position="636">
+          <caret line="531" column="1" selection-start-line="531" selection-start-column="1" selection-end-line="531" selection-end-column="1" />
           <folding>
-            <element signature="n#a#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#svg#0;n#a#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#9598#10295#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/Japan_css.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="746">
+          <caret line="485" selection-start-line="485" selection-end-line="485" />
+          <folding>
+            <element signature="e#9603#10300#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/China_css.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="514" column="6" lean-forward="true" selection-start-line="514" selection-end-line="522" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/India.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="88" selection-start-line="88" selection-end-line="88" />
+          <folding>
+            <element signature="n#button#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#svg#0;n#button#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Us.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-120">
+          <caret line="93" column="26" selection-start-line="93" selection-start-column="26" selection-end-line="93" selection-end-column="26" />
+          <folding>
+            <element signature="n#svg#0;n#button#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Clients.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="124" column="64" selection-start-line="124" selection-start-column="64" selection-end-line="124" selection-end-column="64" />
+          <folding>
+            <element signature="n#button#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/Us_css.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="564">
+          <caret line="367" column="5" lean-forward="true" selection-start-line="360" selection-end-line="367" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/Clients_css.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="205" lean-forward="true" selection-start-line="205" selection-end-line="205" />
         </state>
       </provider>
     </entry>

@@ -5,7 +5,6 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="../css/animate.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/Us_css.css" type="text/css">
     <title>Us</title>
@@ -13,7 +12,7 @@
 
 <body id="main">
 
-<button id="Nav" onclick="openNav()">
+<button data-aos="fade-right" id="Nav" onclick="openNav()">
     <svg width="145" height="100" xmlns="http://www.w3.org/2000/svg">
         <style>
             #svg_1 {
@@ -85,13 +84,13 @@
     <a href="../pages/Main.html">Home</a>
     <a href="../pages/Main.html#Countries">Countries</a>
     <a href="../pages/Us.html">Us</a>
-    <a href="../pages/Book.html">Book</a>
+    <a href="../pages/Clients.html">Clients</a>
 </div>
 
 <section class="Bio">
     <div class="container clearfix">
-        <h1 class="animated fadeInLeftBig">BIO</h1>
-        <img class="animated fadeInRightBig" src="../img/travel.jpg" alt="Logo">
+        <h1 data-aos="fade-right" data-aos-duration="1000">BIO</h1>
+        <img data-aos="fade-left" data-aos-duration="1000" src="../img/travel.jpg" alt="Logo">
         <div class="Left">
             <h2 data-aos="fade-down-right" data-aos-duration="1500">Details</h2>
         </div>
@@ -190,7 +189,7 @@
     </div>
 </section>
 
-<footer>
+<footer data-aos="fade-up" data-aos-anchor-placement="top-bottom">
     <div class="container clearfix">
         <div>
             <p>&copy; 2019 by Alex</p>

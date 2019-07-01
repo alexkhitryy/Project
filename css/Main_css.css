@@ -271,7 +271,7 @@
     background-size: cover;
     position: absolute;
     left: 5%;
-    bottom: 0px;
+    bottom: 0;
 }
 
 .Japan > #OverlayJapanHide {
@@ -379,4 +379,38 @@
 
 .China > #OverlayChinaShow > a:hover {
     letter-spacing: normal;
+}
+
+
+@media all and (max-width: 1366px) {
+
+    #Nav {
+        left: 0;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .Countries>.container {
+        height: 3000px;
+    }
+
+    .Netherlands, .India, .Japan, .China {
+        display: block;
+        width: 100%;
+        position: relative;
+        margin-bottom: 10px;
+    }
+
+    .Japan {
+        background-size: cover;
+        left: 0;
+        margin: 100px auto 40px 0;
+    }
+
+    .Netherlands > #OverlayNetherlandsShow > a, .India > #OverlayIndiaShow > a, .Japan > #OverlayJapanShow > a, .China>#OverlayChinaShow>a {
+        transform: translateX(20px) translateY(-40px);
+        font-size: 50px;
+    }
 }

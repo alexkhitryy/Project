@@ -512,3 +512,49 @@
     background-size: cover;
 }
 
+@media all and (max-width: 1366px) {
+    .container {
+        width: 100%;
+        margin: 0;
+    }
+
+    #Nav {
+        left: 0;
+    }
+
+    .Information, .InformationTable {
+        width: 80%;
+        margin: 10px auto 10px auto;
+        float: none;
+    }
+
+    .SectionTitle {
+        width: 100%;
+        margin: auto;
+    }
+
+    .SectionTitle h2 {
+        font-size: 60px;
+    }
+
+    .accordion ul li div a p {
+        top: 200px;
+    }
+
+    .text {
+        padding: 8px 6px;
+        top: 85%;
+        width: 100%;
+        height: 15%;
+    }
+
+    .text h2 {
+        font-size: 30px;
+        margin: 5px 0 20px 0;
+    }
+
+    .text p {
+        font-size: 20px;
+        line-height: 25px;
+    }
+}

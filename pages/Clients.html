@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/Clients_css.css" type="text/css">
+    <title>Clients</title>
+</head>
+
+<body id="main">
+<button data-aos="fade-right" id="Nav" onclick="openNav()">
+    <svg width="145" height="100" xmlns="http://www.w3.org/2000/svg">
+        <style>
+            #svg_1 {
+                transform: translateY(-5px) rotate(35deg);
+                opacity: 0;
+            }
+
+            #svg_2 {
+                font-family: 'Monoton', cursive;
+                font-size: 6px;
+            }
+
+            #svg_3 {
+                font-family: 'Monoton', cursive;
+                font-size: 5px;
+            }
+
+            #svg_4 {
+                font-family: 'Share Tech Mono', monospace;
+            }
+
+            svg:hover #svg_1 {
+                opacity: 1;
+                transform: translateX(40px) translateY(-70px) rotate(35deg);
+
+            }
+
+            svg:active #svg_1 {
+                opacity: 1;
+                transform: translateX(80px) translateY(-140px) rotate(35deg);
+            }
+
+        </style>
+        <defs>
+            <filter id="svg_2_blur">
+                <feGaussianBlur stdDeviation="0"/>
+            </filter>
+        </defs>
+        <g>
+            <title>background</title>
+            <rect x="-1" y="-1" width="147" height="102" id="canvas_background" fill="#333742"/>
+            <g id="canvasGrid" display="none">
+                <rect id="svg_5" width="800" height="600" x="2" y="2" stroke-width="0" fill="url(#gridpattern)"/>
+            </g>
+        </g>
+        <g>
+            <title>Layer 1</title>
+            <path stroke="#000" transform="rotate(32 126.9370193481445,29.326457977294915) " id="svg_1"
+                  d="m127.046457,5.247401c-0.446617,0 -0.843969,0.206587 -1.179231,0.581324c-0.334978,0.374427 -0.612053,0.910951 -0.842618,1.581011c-0.461065,1.33993 -0.744682,3.222233 -0.899819,5.476463c-0.154836,2.249888 -0.180929,4.869682 -0.116601,7.674118c-5.516824,2.550271 -16.705974,7.8159 -17.604809,8.991607c-1.196697,1.565317 -0.810044,3.359256 -0.327809,4.550146l18.394626,-4.218741c0.388821,5.497741 0.941667,10.942959 1.423429,15.20971c-1.798885,0.593244 -5.156813,1.76463 -5.849933,2.491024c-0.954827,1.000664 -0.954822,4.232294 -0.954822,4.232294l7.528577,-0.689979c0.177313,1.392995 0.288204,2.205795 0.288204,2.205795l0.010999,0.073347l0.059405,0l0.1386,0l0.0594,0l0.011001,-0.073347c0,0 0.110679,-0.812814 0.288204,-2.205795l7.530775,0.689979c0,0 0.00001,-3.23163 -0.954822,-4.232294c-0.693378,-0.726676 -4.053759,-1.900715 -5.852133,-2.493758c0.480766,-4.253657 1.03264,-9.678041 1.421231,-15.158065l18.179025,4.16983c0.482232,-1.190892 0.871092,-2.984831 -0.325607,-4.550148c-0.887713,-1.161151 -11.80649,-6.309666 -17.391403,-8.893821c0.06673,-2.840784 0.0422,-5.496279 -0.114401,-7.771906l0,-0.005431c-0.155217,-2.251745 -0.43914,-4.132212 -0.899816,-5.471032c-0.2305,-0.66987 -0.505322,-1.206452 -0.840418,-1.581006c-0.335265,-0.374737 -0.732612,-0.581326 -1.179226,-0.581326l-0.000007,0.000002l-0.000002,0z"
+                  stroke-width="1.5" fill="#fff"/>
+            <text fill="#ffff" stroke-width="0" x="44.084106" y="138.367222" id="svg_2" font-size="6"
+                  font-family="'Times New Roman', Times, serif" text-anchor="start" xml:space="preserve"
+                  font-weight="normal" font-style="normal"
+                  transform="matrix(7.159618006943666,0,0,7.536425492613147,-315.6234470715012,-1001.7736316176661) "
+                  stroke="#000" filter="url(#svg_2_blur)">TIME</text>
+            <text fill="#ffff" stroke-width="0" stroke-opacity="null" x="140.896401" y="311.879469" id="svg_3"
+                  font-size="6" font-family="'Times New Roman', Times, serif" text-anchor="start" xml:space="preserve"
+                  transform="matrix(6.267568271140609,0,0,7.670262362004223,-883.0686009274358,-2301.966916085171) "
+                  stroke="#000">TRAVEL</text>
+            <text fill="#ffff" stroke-width="0" stroke-opacity="null" x="191.966235" y="162.782393" id="svg_4"
+                  font-size="5" font-family="'Monoton', cursive;" text-anchor="start" xml:space="preserve"
+                  transform="rotate(-20 52.80117416381834,50.36212158203123) matrix(5.497454138389664,0,0,5.364728122742175,-1016.2809149339656,-813.4829185868867) "
+                  stroke="#000" font-style="italic">to</text>
+        </g>
+    </svg>
+</button>
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="../pages/Main.html">Home</a>
+    <a href="../pages/Main.html#Countries">Countries</a>
+    <a href="../pages/Us.html">Us</a>
+    <a href="../pages/Clients.html">Clients</a>
+</div>
+
+
+<section class="Reviews">
+    <div class="container clearfix">
+
+        <div class="RowOne">
+            <div class="Client" id="One-1" data-aos="fade-right">
+                <img src="../img/Clients/Geoff.jpg" alt="Geoff">
+                <div class="Overlay">
+                    <h2>Geoff Ramsey</h2>
+                    <img src="../img/quote.svg" alt="quotes">
+                    <h3>Time to Travel has been the greatest travel agency I have ever dealt with. The amount of time saved and efficiency gained has been enormous. I would recommend this company to anyone.</h3>
+                    <p><span>&dash;</span><br>co-founder and prominent staff member of Rooster Teeth</p>
+                </div>
+            </div>
+            <div class="Client" id="One-2" data-aos="fade-right">
+                <img src="../img/Clients/Jack.png" alt="Jack">
+                <div class="Overlay">
+                    <h2>Jack Pattillo</h2>
+                    <img src="../img/quote.svg" alt="quotes">
+                    <h3>Time to Travel has been the greatest travel agency I have ever dealt with. The amount of time saved and efficiency gained has been enormous. I would recommend this company to anyone.</h3>
+                    <p><span>&dash;</span><br>filmmaker, actor, voice actor, and on-camera host</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="RowTwo">
+            <div class="Client" id="Two-1" data-aos="fade-right">
+                <img src="../img/Clients/Ryan.jpg" alt="Ryan">
+                <div class="Overlay">
+                    <h2>Ryan Haywood</h2>
+                    <img src="../img/quote.svg" alt="quotes">
+                    <h3>Time to Travel has been the greatest travel agency I have ever dealt with. The amount of time saved and efficiency gained has been enormous. I would recommend this company to anyone.</h3>
+                    <p><span>&dash;</span><br>actor, voice actor, on-camera host/on-screen talent and content producer</p>
+                </div>
+            </div>
+            <div class="Client" id="Two-2" data-aos="fade-right">
+                <img src="../img/Clients/Jeremy.jpg" alt="Trevor">
+                <div class="Overlay">
+                    <h2>Trevor Collins</h2>
+                    <img src="../img/quote.svg" alt="quotes">
+                    <h3>Time to Travel has been the greatest travel agency I have ever dealt with. The amount of time saved and efficiency gained has been enormous. I would recommend this company to anyone.</h3>
+                    <p><span>&dash;</span><br>actor, voice actor, show and podcast host</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="RowThree">
+            <div class="Client" id="Three-1" data-aos="fade-right">
+                <img src="../img/Clients/Michael.png" alt="Michael">
+                <div class="Overlay">
+                    <h2>Michael Jones</h2>
+                    <img src="../img/quote.svg" alt="quotes">
+                    <h3>Time to Travel has been the greatest travel agency I have ever dealt with. The amount of time saved and efficiency gained has been enormous. I would recommend this company to anyone.</h3>
+                    <p><span>&dash;</span><br>Rooster Teeth employee, core member of Achievement Hunter</p>
+                </div>
+            </div>
+            <div class="Client" id="Three-2" data-aos="fade-right">
+                <img src="../img/Clients/Gavin.jpg" alt="Gavin">
+                <div class="Overlay">
+                    <h2>Gavin Free</h2>
+                    <img src="../img/quote.svg" alt="quotes">
+                    <h3>Time to Travel has been the greatest travel agency I have ever dealt with. The amount of time saved and efficiency gained has been enormous. I would recommend this company to anyone.</h3>
+                    <p><span>&dash;</span><br>actor, voice actor, on-camera host, and screenwriter</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("main").style.marginLeft = "0";
+    }
+</script>
+</body>
+</html>

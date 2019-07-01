@@ -154,6 +154,7 @@
     overflow: hidden;
     margin: 50px auto;
 }
+
 .accordion ul {
     width: 100%;
     height: 500px;
@@ -162,6 +163,7 @@
     margin: 0;
     padding: 0;
 }
+
 .accordion ul li {
     display: table-cell;
     vertical-align: bottom;
@@ -172,12 +174,14 @@
     background-position: center center;
     transition: all 500ms ease;
 }
+
 .accordion ul li div {
     display: block;
     overflow: hidden;
     width: 100%;
     height: 100%;
 }
+
 .accordion ul li div a {
     display: block;
     height: 100%;
@@ -191,6 +195,7 @@
     text-decoration: none;
     transition: all 200ms ease;
 }
+
 .accordion ul li div a * {
     opacity: 0;
     margin: 0;
@@ -204,6 +209,7 @@
     -webkit-transition: all 400ms ease;
     transition: all 400ms ease;
 }
+
 .accordion ul li div a h2 {
     font-family: 'Share Tech Mono', monospace;
     text-overflow: clip;
@@ -212,47 +218,57 @@
     margin-bottom: 2px;
     top: 400px;
 }
+
 .accordion ul li div a p {
     top: 280px;
     font-size: 16px;
     display: inline-block;
     width: 100%;
     height: 100px;
-
 }
+
 .accordion ul li:nth-child(1) {
     background: url("../img/Netherlands/sight01.jpg") top center no-repeat;
     background-size: cover;
 }
+
 .accordion ul li:nth-child(2) {
     background: url("../img/Netherlands/sight02.jpg") top center no-repeat;
     background-size: cover;
 }
+
 .accordion ul li:nth-child(3) {
     background: url("../img/Netherlands/sight03.jpg") top center no-repeat;
     background-size: cover;
 }
+
 .accordion ul li:nth-child(4) {
     background: url("../img/Netherlands/sight04.jpg") top center no-repeat;
     background-size: cover;
 }
+
 .accordion ul li:nth-child(5) {
     background: url("../img/Netherlands/sight05.jpg") top center no-repeat;
     background-size: cover;
 }
+
 .accordion ul li:nth-child(6) {
     background: url("../img/Netherlands/sight06.jpg") top center no-repeat;
     background-size: cover;
 }
+
 .accordion ul:hover li {
     width: 8%;
 }
+
 .accordion ul:hover li:hover {
     width: 60%;
 }
+
 .accordion ul:hover li:hover a {
     background: rgba(0, 0, 0, 0.4);
 }
+
 .accordion ul:hover li:hover a * {
     opacity: 1;
     -webkit-transform: translateX(0);
@@ -267,6 +283,7 @@
     .accordion {
         height: auto;
     }
+
     .accordion ul li, .accordion ul li:hover, .accordion ul:hover li, .accordion ul:hover li:hover {
         position: relative;
         display: table;
@@ -284,6 +301,7 @@
 .SectionTitle:not(#First) {
     margin: 50px auto 25px auto;
 }
+
 .SectionTitle {
     width: 50%;
     margin: auto;
@@ -307,7 +325,6 @@
     height: auto;
 }
 
-/* Next & previous buttons */
 .prev, .next {
     cursor: pointer;
     position: absolute;
@@ -329,10 +346,9 @@
 }
 
 .prev:hover, .next:hover {
-    background-color: rgba(255,255,255, 0.5);
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
-/* Caption text */
 .text {
     color: #333742;
     padding: 8px 12px;
@@ -342,7 +358,7 @@
     height: 10%;
     transition: .5s ease;
     text-align: center;
-    background: rgba(255,255,255, 0.7);
+    background: rgba(255, 255, 255, 0.7);
     overflow: hidden;
 }
 
@@ -379,7 +395,6 @@
     top: 0;
 }
 
-/* The dots/bullets/indicators */
 .dot {
     cursor: pointer;
     height: 10px;
@@ -395,7 +410,6 @@
     background-color: #717171;
 }
 
-/* Fading animation */
 .fade {
     -webkit-animation-name: fade;
     -webkit-animation-duration: 1.5s;
@@ -404,13 +418,21 @@
 }
 
 @-webkit-keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
 }
 
 @keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
 }
 
 .PeopleNetherlands .container {
@@ -420,6 +442,7 @@
     justify-content: center;
     width: 100%;
 }
+
 .PeopleNetherlands .Person {
     position: relative;
     width: 500px;
@@ -446,7 +469,7 @@
     display: block;
     width: 100%;
     text-align: center;
-    background: rgba(255,255,255, 0.5);
+    background: rgba(255, 255, 255, 0.5);
     font-size: 50px;
     position: absolute;
     top: 50%;
@@ -487,3 +510,49 @@
     background-size: cover;
 }
 
+@media all and (max-width: 1366px) {
+    .container {
+        width: 100%;
+        margin: 0;
+    }
+
+    #Nav {
+        left: 0;
+    }
+
+    .Information, .InformationTable {
+        width: 80%;
+        margin: 10px auto 10px auto;
+        float: none;
+    }
+
+    .SectionTitle {
+        width: 100%;
+        margin: auto;
+    }
+
+    .SectionTitle h2 {
+        font-size: 60px;
+    }
+
+    .accordion ul li div a p {
+        top: 200px;
+    }
+
+    .text {
+        padding: 8px 6px;
+        top: 85%;
+        width: 100%;
+        height: 15%;
+    }
+
+    .text h2 {
+        font-size: 30px;
+        margin: 5px 0 20px 0;
+    }
+
+    .text p {
+        font-size: 20px;
+        line-height: 25px;
+    }
+}
