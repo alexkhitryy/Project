@@ -65,3 +65,13 @@ a:hover+#slide {
     opacity: 1;
     transform: translateY(-30px);
 }
+
+@media all and (max-width: 1366px) {
+    .container {
+        width: 100%;
+    }
+
+    .TitleScreen {
+        min-width: 500px;
+    }
+}
